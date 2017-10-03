@@ -1,0 +1,2 @@
+C:\Users\esmex\source\repos\Practica 5\Practica 5\Practica_5.UWP\Practica_5.UWP.csproj;x86
+C:\Users\esmex\source\repos\Practica 5\Practica 5\Practica_5\Practica_5.csproj;neutral

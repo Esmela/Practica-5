@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Practica_5.Page2">
+    <ScrollView>
+        <StackLayout>
+            <Label Text="Datos Personales"/>
+            <Entry x:Name="txtNombre" Placeholder="Nombre"/>
+            <Entry x:Name="txtApellidos" Placeholder="Apellidos"/>
+            <Entry x:Name="txtdireccion" Placeholder="Direccion"/>
+            <Entry x:Name="txttelefono" Placeholder="Telefono"/>
+            <Label Text="Datos Escolares"/>
+            <Entry x:Name="txtCarrera" Placeholder="Carrera"/>
+            <Entry x:Name="txtSemestre" Placeholder="Semestre"/>
+            <Entry x:Name="txtMatricula" Placeholder="Matricula"/>
+            <Label Text="Datos Sociales"/>
+            <Entry x:Name="txtCorreo" Placeholder="Correo"/>
+            <Entry x:Name="txtGithub" Placeholder="Github"/>
+            <Button x:Name="btndatos" Text="Aceptar" Clicked="btndatos_Clicked"/>
+            <Button x:Name="btn1" Text="Siguiente" FontSize="Medium" Clicked="btn1_Clicked"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
